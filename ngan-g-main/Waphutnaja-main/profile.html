@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Card Hover Effect</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="card blue">
+        <div class="product">
+            <span class="number">01</span>
+            <span class="sneakers"> inazuma eleven</span>
+            <span class="price">ผู้รักษาประตู</span>
+            <img src="an.png">
+        </div>
+        <div class="title">
+            <h2>เอนโด มาโมรุ</h2>
+        </div>
+    </div>
+
+    <div class="card purple">
+        <div class="product">
+            <span class="number">10</span>
+            <span class="sneakers"> inazuma eleven</span>
+            <span class="price">กองหน้า</span>
+            <img src="g.png">
+        </div>
+        <div class="title">
+            <h2>โกเอนจิ ชูยะ</h2>
+        </div>
+    </div>
+
+    <div class="card nam3">
+        <div class="product">
+            <span class="number">14</span>
+            <span class="sneakers"> inazuma eleven</span>
+            <span class="price">กองกลาง</span>
+            <img src="k.webp">
+        </div>
+        <div class="title">
+            <h2>คิโด ยูโตะ</h2>
+        </div>
+    </div>
+
+    <script src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 5000,
+            glare: true,
+            'max-glare': 0.5,
+        });
+    </script>
+    <div class="blur-box">
+      </div>
+    
+    <button><a href="index.html" class="but2.1">home</a></button>
+      
+    
+</body>
+</html>

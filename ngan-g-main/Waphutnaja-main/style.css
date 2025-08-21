@@ -1,0 +1,36 @@
+/* ==========================
+   โครงสร้างพื้นฐาน
+   ========================== */
+   body {
+    margin: 0;
+    font-family: "Prompt", sans-serif;
+    background-color: #dbac8a;
+}
+
+/* ส่วนบน (แถบดำ) */
+.top {
+    background-color: #231515;
+    height: 40px;
+}
+
+/* ส่วนกลาง (แถบส้ม) */
+.middle {
+    background-color: #f35c01;
+    height: 180px;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* ส่วนล่าง (พื้นหลังน้ำตาล) */
+.bottom {
+    background-color: #dbac8a;
+    height: calc(100vh - 220px);
+    padding: 1rem;
+    max-width: 100%;
+    margin: auto;
+    overflow-y: auto;
+}
+.but2.1{
+    
+}
